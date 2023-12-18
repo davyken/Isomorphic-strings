@@ -15,6 +15,6 @@ function isStringIsomorphic (str1, str2) {
   }
   return true
 }
-let str1 = "ABCA"
-let str2 = "XYZX"
+const str1 = 'ABCA'
+const str2 = 'XYZX'
 console.log(isStringIsomorphic(str1, str2))

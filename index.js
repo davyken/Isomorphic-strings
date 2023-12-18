@@ -1,20 +1,20 @@
 document.getElementById('check').addEventListener('click', () => {
-  document.getElementById('result').value = isStringIsomorphic(str1, str2);
-});
-function isStringIsomorphic(str1, str2) {
+  document.getElementById('result').value = isStringIsomorphic(str1, str2)
+})
+function isStringIsomorphic (str1, str2) {
   if (str1.length !== str2.length) {
-    return false;
+    return false
   }
   for (let i = 0; i < str1.length; i++) {
     for (let j = i + 1; j < str1.length; j++) {
       if (
         (str1[i] === str1[j] && str2[i] !== str2[j]) || (str1[i] !== str1[j] && str2[i] === str2[j])) {
-        return false;
+        return false
       }
     }
   }
-  return true;
+  return true
 }
-str1 = "ABCA";
-str2 = "XYZX";
-console.log(isStringIsomorphic(str1, str2));
+let str1 = "ABCA"
+let str2 = "XYZX"
+console.log(isStringIsomorphic(str1, str2))

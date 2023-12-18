@@ -1,21 +1,21 @@
 body input {
-    padding: 2rem;
-    border-radius: 1rem;
-    font-size: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  font-size: 2rem;
 }
 
 body button {
-    padding: 1rem;
-    border-radius: 1rem;
-    background-color: green;
-    color: white;
-    font-size: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: green;
+  color: white;
+  font-size: 2rem;
 }
 
 .div {
-    justify-content: center;
+  justify-content: center;
 }
-body{
-    background-color: aquamarine;
 
+body {
+  background-color: aquamarine;
 }

@@ -5,15 +5,12 @@ body input {
 }
 
 body button {
-  padding: 1rem;
+  padding: 1px;
   border-radius: 1rem;
   background-color: green;
   color: white;
   font-size: 2rem;
-}
-
-.div {
-  justify-content: center;
+  margin: 1rem;
 }
 
 body {
